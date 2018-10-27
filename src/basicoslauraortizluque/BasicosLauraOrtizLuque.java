@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package basicoslauraortizLuque;
+package basicoslauraortizluque;
 
 /**
  *
- * @author HP
+ * @author Laura Ortiz Luque
  */
 public class BasicosLauraOrtizLuque {
 
@@ -18,6 +18,7 @@ public class BasicosLauraOrtizLuque {
         // TODO code application logic here
         
         numericos();//Llamada al método númericos
+        cadenas();//Llamada al método cadenas
     }
     
      /**
@@ -54,6 +55,22 @@ public class BasicosLauraOrtizLuque {
         System.out.println(grande);
         System.out.println("Valor double");
         System.out.println(doble);
+    }
+    
+    public static void cadenas() {
+
+        //Declaración de variables
+        String cadena;
+       
+
+        //Asignación de valores
+        cadena="Esto es una cadena";
+     
+
+        //Zona de presentación
+        System.out.println("Valor cadena:");
+        System.out.println(cadena);
+     
     }
     
 }
