@@ -84,8 +84,9 @@ public class BasicosLauraOrtizLuque {
         segundo = false;
 
         //Mostrar en pantalla el contendido de las variables de tipos básicos.
+        System.out.println("Valor logicos");
         if (primero!=segundo){
-            System.err.println("El valor de primero y el valor de segundo son distintos.");
+            System.out.println("El valor de primero y el valor de segundo son distintos.");
         }
         else{
             System.out.println("El valor de primero y el valor de segundo son iguales.");
