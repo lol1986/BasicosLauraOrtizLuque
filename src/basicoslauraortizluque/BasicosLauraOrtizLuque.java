@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package basicoslauraortizluque;
-
 /**
  *
  * @author Laura Ortiz Luque
@@ -19,6 +18,7 @@ public class BasicosLauraOrtizLuque {
         
         numericos();//Llamada al método númericos
         cadenas();//Llamada al método cadenas
+        logicos();//Llamada al método logicos
     }
     
      /**
@@ -73,4 +73,23 @@ public class BasicosLauraOrtizLuque {
      
     }
     
+      public static void logicos() {
+
+        //Declaración de variables
+        Boolean primero;
+        Boolean segundo;
+
+        //Asignación de valores
+        primero = true;
+        segundo = false;
+
+        //Mostrar en pantalla el contendido de las variables de tipos básicos.
+        if (primero!=segundo){
+            System.err.println("El valor de primero y el valor de segundo son distintos.");
+        }
+        else{
+            System.out.println("El valor de primero y el valor de segundo son iguales.");
+        }
+  
+    }
 }
